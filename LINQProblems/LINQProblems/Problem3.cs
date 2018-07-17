@@ -38,7 +38,6 @@ namespace LINQProblems
                 tempList.RemoveAt(0);
                 newClassGrades.Add(tempList.ToArray());
             }
-            
         }
         public List<double> AverageGrades()
         {

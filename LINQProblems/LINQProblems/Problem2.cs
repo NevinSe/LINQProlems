@@ -8,5 +8,10 @@ namespace LINQProblems
 {
     class Problem2
     {
+        List<string> names = new List<string> {"Mike","Dan","Scott","Nick","Mike"};
+        public IEnumerable<string> NoDuplicates()
+        {
+            return names.Distinct();
+        }
     }
 }

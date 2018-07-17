@@ -20,8 +20,15 @@ namespace LINQProblems
             //    Console.WriteLine(name);
             //}
 
-            //Problem3 problem3 = new Problem3();
-            //problem3.Contains();
+            Problem3 problem3 = new Problem3();
+
+            var averageGrades = problem3.AverageGrades();
+
+            foreach(var g in averageGrades)
+            {
+                Console.WriteLine(g);
+            }
+            
 
             //Problem4 problem4 = new Problem4();
             //problem4.Contains();

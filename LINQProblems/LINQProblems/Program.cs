@@ -28,7 +28,6 @@ namespace LINQProblems
             //}
 
             Problem4 problem4 = new Problem4();
-            Console.WriteLine(problem4.ListChar());
 
             Console.ReadLine();
         }
